@@ -10,6 +10,7 @@ feature 'Attacking' do
   scenario 'attacking reduces health' do 
     sign_in_and_play
     click_link('Attack')
+    save_and_open_page
     expect(page).to have_content 'Mittens: 50hp'
   end 
 end
