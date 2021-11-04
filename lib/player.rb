@@ -7,10 +7,6 @@ class Player
       @hp = hp
     end
 
-    def attack(player_name)
-      player_name.reduce_health
-    end 
-
     def reduce_health
       @hp -= 10
     end

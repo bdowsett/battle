@@ -16,9 +16,5 @@ describe Player do
     end
   end
   
-  describe '#reduce_health' do
-    it 'reduces health by 10hp' do
-      expect{ charlotte.attack(mittens) }.to change { mittens.hp }.by(-10)
-    end
-  end
+ 
 end
