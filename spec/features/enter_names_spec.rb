@@ -3,6 +3,6 @@ feature 'Enter names' do
     visit('/')
     sign_in_and_play  
     save_and_open_page 
-    expect(page).to have_content 'Charlotte vs. Mittens'
+    expect(page).to have_content 'Ben vs. Ryan'
   end
 end
