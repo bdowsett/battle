@@ -23,5 +23,13 @@ feature 'Player turn' do
         sign_in_and_play
         click_link('Attack')
         expect(page).to have_content "Ryan's turn"
-      end 
+    end 
+    
+    scenario 'players switch turns' do 
+        sign_in_and_play
+        click_link('Attack')
+        click_link('Attack')
+        expect(page).to have_content "Ben's turn"
+    end 
+    
   end

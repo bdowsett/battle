@@ -22,6 +22,9 @@ class Game
 
   def switch_turns(player_name)
    player_name == player_1 ? @turn = player_1 : @turn = player_2
-
+   # turn 
   end 
 end 
+
+# @turn = players[0] or players[1]
+# @turn = 0 1
