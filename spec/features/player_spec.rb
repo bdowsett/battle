@@ -14,7 +14,5 @@ describe Player do
     it 'returns hp' do
       expect(ben.hp).to eq Player::DEFAULT_HP
     end
-  end
-  
- 
+  end 
 end
